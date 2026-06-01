@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mein Persönlicher Blog</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            line-height: 1.6;
+        }
+        header {
+            background: #2c3e50;
+            color: #ffffff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        nav {
+            background: #34495e;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            overflow: hidden;
+        }
+        .post {
+            background: #ffffff;
+            margin-bottom: 20px;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .post h2 {
+            margin-top: 0;
+        }
+        .date {
+            color: #777;
+            font-size: 0.9em;
+        }
+        footer {
+            background: #2c3e50;
+            color: #ffffff;
+            text-align: center;
+            padding: 15px 0;
+            margin-top: 20px;
+        }
+        button {
+            background-color: #2980b9;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #1f6391;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Willkommen auf meinem Blog</h1>
+    <p>Gedanken, Erfahrungen und Inspirationen</p>
+</header>
+
+<nav>
+    <a href="#">Startseite</a>
+    <a href="#">Über mich</a>
+    <a href="#">Artikel</a>
+    <a href="#">Kontakt</a>
+</nav>
+
+<div class="container">
+
+    <div class="post">
+        <h2>Mein erster Blogbeitrag</h2>
+        <p class="date">Veröffentlicht am 28. Februar 2026</p>
+        <p>
+            Dies ist mein erster Eintrag in diesem Blog. Hier teile ich meine Gedanken,
+            Erfahrungen und Ideen zu verschiedenen Themen. Schreiben ist für mich eine
+            Möglichkeit, meine Kreativität auszudrücken und meine Perspektiven mit anderen zu teilen.
+        </p>
+        <button onclick="mehrAnzeigen(this)">Weiterlesen</button>
+    </div>
+
+    <div class="post">
+        <h2>Warum ich gerne schreibe</h2>
+        <p class="date">Veröffentlicht am 20. Februar 2026</p>
+        <p>
+            Schreiben hilft mir, meine Gedanken zu ordnen und neue Ideen zu entwickeln.
+            Es ist eine Reise in meine eigene Welt und gleichzeitig eine Brücke zu anderen Menschen.
+        </p>
+        <button onclick="mehrAnzeigen(this)">Weiterlesen</button>
+    </div>
+
+</div>
+
+<footer>
+    <p>&copy; 2026 Mein Persönlicher Blog | Alle Rechte vorbehalten</p>
+</footer>
+
+<script>
+    function mehrAnzeigen(button) {
+        alert("Weitere Inhalte werden bald verfügbar sein.");
+    }
+</script>
+
+</body>
+</html>
